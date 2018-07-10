@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Urban by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 	<head>
 		<title>Carlos Petit @offcarlospetit</title>
@@ -13,6 +9,11 @@
 		<link rel="shortcut icon" href="images/petit.ico">
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+
+    <?php
+    include "webcounter.php";
+    $número_accesos = visitante();
+    ?>
 	<style>
 
 		ul {
@@ -43,14 +44,14 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<div class="logo"><a href="index.html">Carlos <span>Petit</span></a></div>
+				<div class="logo"><a href="index.php">Carlos <span>Petit</span></a></div>
 				<a href="#menu">Menu</a>
 			</header>
 
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="index.php">Home</a></li>
 					<li><a href="https://gitlab.com/offcarlospetit/">Proyectos</a></li>
 					<!--<li><a href="elements.html">Contacto</a></li>-->
 				</ul>
@@ -202,7 +203,7 @@
 
 									</div>
 									<p>Plataforma de video WEB creada como parte del curso de React JS</p>
-									<a href="/proyectos/vid-platform/index.html" target="_blank" class="button">Ver el demo</a>
+									<a href="/proyectos/video-platform/index.html" target="_blank" class="button">Ver el demo</a>
 								</div>
 							</div>
 						</div>
