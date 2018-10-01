@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Urban by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 	<head>
 		<title>Carlos Petit @offcarlospetit</title>
@@ -13,6 +9,11 @@
 		<link rel="shortcut icon" href="images/petit.ico">
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+
+    <?php
+    include "webcounter.php";
+    $número_accesos = visitante();
+    ?>
 	<style>
 
 		ul {
@@ -30,6 +31,14 @@
 			width: 1.3em; /* same as padding-left set on li */
 		}
 
+        li.normal:before {
+            content: "\f0a4"; /* FontAwesome Unicode */
+            font-family: FontAwesome;
+            display: inline-block;
+            margin-left: -1.3em; /* same as padding-left set on li */
+            width: 1.3em; /* same as padding-left set on li */
+        }
+
 		li.star:before {
 			content: "\f005"; /* FontAwesome Unicode */
 			font-family: FontAwesome;
@@ -43,14 +52,14 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<div class="logo"><a href="index.html">Carlos <span>Petit</span></a></div>
+				<div class="logo"><a href="index.php">Carlos <span>Petit</span></a></div>
 				<a href="#menu">Menu</a>
 			</header>
 
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="index.php">Home</a></li>
 					<li><a href="https://gitlab.com/offcarlospetit/">Proyectos</a></li>
 					<!--<li><a href="elements.html">Contacto</a></li>-->
 				</ul>
@@ -151,15 +160,26 @@
 										<li class="star"><a style="color: #1b1e21;" href="certificados/marca-personal.pdf" target="_blank"><bold>Curso de Marca Personal</bold></a></li>
 									</ul>
 
+                                    <h3>Contactame: </h3>
+                                    <div class="copyright">
+                                        <ul class="icons">
+                                            <li class="normal"><a href="mailto:ca.alberto.p@gmail.com" target="_blank" style="color:white" class="icon fa-envelope"><span class="label">Escribeme</span></a></li>
+                                            <li class="normal"><a href="https://twitter.com/offcarlospetit" target="_blank" style="color:white" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                            <li class="normal"><a href="https://www.facebook.com/devoffcarlospetit/" style="color:white" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                                            <li class="normal"><a href="https://www.instagram.com/offcarlospetit/" style="color:white" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                                        </ul>
+                                        <!-- <p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p> -->
+                                    </div>
+
 									<p></p>
 									<!--<a href="#" class="button">Learn More</a>-->
 								</div>
 								<div class="col col1 first">
-									<div class="image round fit">
-										<a href="generic.html" class="link"><img src="images/ios.png" alt="" /></a>
+									<div class="image round fit" style="width: 120px;">
+										<a href="certificados/apple-fullstack.pdf" target="_blank" class="link" ><img src="images/swift.png" alt="" /></a>
 									</div>
-									<div class="image round fit">
-										<a href="generic.html" class="link"><img src="images/full.png" alt="" /></a>
+									<div class="image round fit" style="width: 120px;">
+										<a href="certificados/git.pdf" target="_blank" class="link"><img src="images/git.png" alt="" /></a>
 									</div>
 								</div>
 							</div>
@@ -215,6 +235,7 @@
 			<footer id="footer">
 				<div class="copyright">
 					<ul class="icons">
+						<li><a href="mailto:ca.alberto.p@gmail.com" target="_blank" class="icon fa-envelope"><span class="label">Escribeme</span></a></li>
 						<li><a href="https://twitter.com/offcarlospetit" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="https://www.facebook.com/devoffcarlospetit/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<!-- <li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li> -->

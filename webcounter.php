@@ -1,16 +1,22 @@
 <?php
 
-    function visitante($record) {
-          $db_host = "instance-1";
-          $db_username = "root";
-          $db_password = "root";
-          $db_name = "sitio";
-          $db_table = "visita";
-          $counter_page = "visit";
-          $counter_field = "visit";
+    function visitante() {
+        $db_host = "localhost";
+        $db_username = "root";
+        $db_password = "root";
+        $db_name = "sitio";
+        $db_table = "visita";
+        $counter_page = "visit";
+        $counter_ip = "ip";
+        $ipaddress = $_SERVER['REMOTE_ADDR'];
+
+        $date = new DateTime();
+        $date = $date->format('Y-m-d H:i:s');
+
           $db = mysqli_connect ($db_host, $db_username, $db_password, $db_name) or die("Host o base de datos no disponible");
 
-          $sql_call = "INSERT INTO ".$db_table." (".$counter_page.") VALUES ('". new \Date()."')";
+          $sql_call = "INSERT INTO ".$db_table." (".$counter_page.", ".$counter_ip.") VALUES ('". $date."', '".$ipaddress."')";
+
 
           mysqli_query($db, $sql_call) or die("Error al introducir los datos");
 
@@ -22,4 +28,5 @@
         mysqli_close($db);
         return $x;
   }
+
 ?>
