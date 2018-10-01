@@ -153,6 +153,7 @@
 									<ul>
 										<li class="star"><a style="color: #1b1e21; " href="certificados/apple-fullstack.pdf" target="_blank"><bold>Carrera de Apple Full Stack Developer</bold></a></li>
 										<li class="star"><a style="color: #1b1e21;" href="certificados/apple-ios.pdf" target="_blank"><bold>Curso Desarrollo de Aplicaciones para iOS</bold></a></li>
+										<li class="star"><a style="color: #1b1e21;" href="certificados/diploma-java-basico2.pdf" target="_blank"><bold>Curso Basico de Java SE</bold></a></li>
 										<li class="star"><a style="color: #1b1e21; " href="certificados/diploma-react.pdf" target="_blank"><bold>Curso ReactJS</bold></a></li>
 										<li class="star"><a style="color: #1b1e21;" href="certificados/git.pdf" target="_blank"><bold>Curso Profesional de Git y GitHub</bold></a></li>
 										<li class="star"><a style="color: #1b1e21;" href="certificados/fundamentos-javascript.pdf" target="_blank"><bold>Curso Fundamentos de JavaScript</bold></a></li>

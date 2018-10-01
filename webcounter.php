@@ -17,6 +17,7 @@
 
           $sql_call = "INSERT INTO ".$db_table." (".$counter_page.", ".$counter_ip.") VALUES ('". $date."', '".$ipaddress."')";
 
+
           mysqli_query($db, $sql_call) or die("Error al introducir los datos");
 
         $sql_call = "SELECT count(*) FROM ".$db_table." ";
@@ -27,7 +28,5 @@
         mysqli_close($db);
         return $x;
   }
-
-
 
 ?>
