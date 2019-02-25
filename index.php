@@ -177,6 +177,7 @@
 										<li class="star"><a style="color: #1b1e21;" href="certificados/diploma-ibm-cloud.pdf" target="_blank"><bold>Curso Fundamentos IBM Cloud</bold></a></li>
 										<li class="star"><a style="color: #1b1e21;" href="certificados/fundamentos-javascript.pdf" target="_blank"><bold>Curso Fundamentos de JavaScript</bold></a></li>
 										<li class="star"><a style="color: #1b1e21;" href="certificados/marca-personal.pdf" target="_blank"><bold>Curso de Marca Personal</bold></a></li>
+										<li class="star"><a style="color: #1b1e21;" href="certificados/diploma-scrum.pdf" target="_blank"><bold>Curso de Scrum</bold></a></li>
 									</ul>
 
                                     <h3>Contactame: </h3>
