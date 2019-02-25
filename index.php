@@ -115,27 +115,43 @@
 												<li>Responsive Design</li>
 											</ul>
 										</li>
-										<li>Programación Front-End.
+										<li>Front-End.
 											<ul>
 												<li>Javascript</li>
 												<li>jQuery</li>
 												<li>jQuery Mobile</li>
 												<li>jQuery UI</li>
-												<li>ReactJs</li>
+												<li>React Js</li>
+												<li>Angular Js</li>
 											</ul>
 										</li>
-										<li>Programación Back-End.
+										<li>Back-End.
 											<ul>
-												<li>PhP - Symfony2 o posterior</li>
-												<li>Java - Angular Js</li>
+												<li>PHP</li>
+												<li>Node Js</li>
+												<li>Python</li>
+												<li>Java </li>
 											</ul>
 										</li>
-										<li>Aplicaciones Moviles.
-											<ul>
-												<li>iOS - Nativo</li>
-												<li>React Native para plataformas iOS y Android.</li>
-											</ul>
-										</li>
+                                        <li>Aplicaciones Moviles.
+                                            <ul>
+                                                <li>iOS - Nativo</li>
+                                                <li>React Native para plataformas iOS y Android.</li>
+                                                <li>React Navigation.</li>
+                                            </ul>
+                                        </li>
+                                        <li>Frameworks
+                                            <ul>
+                                                <li>Angular Js</li>
+                                                <li>Symfony 2+</li>
+                                            </ul>
+                                        </li>
+                                        <li>Computación en la Nube.
+                                            <ul>
+                                                <li>IBM Cloud</li>
+                                                <li>Google Cloud</li>
+                                            </ul>
+                                        </li>
 										<li>Bases de Datos.
 											<ul>
 												<li>MySQL</li>
@@ -155,7 +171,10 @@
 										<li class="star"><a style="color: #1b1e21;" href="certificados/apple-ios.pdf" target="_blank"><bold>Curso Desarrollo de Aplicaciones para iOS</bold></a></li>
 										<li class="star"><a style="color: #1b1e21;" href="certificados/diploma-java-basico2.pdf" target="_blank"><bold>Curso Basico de Java SE</bold></a></li>
 										<li class="star"><a style="color: #1b1e21; " href="certificados/diploma-react.pdf" target="_blank"><bold>Curso ReactJS</bold></a></li>
+										<li class="star"><a style="color: #1b1e21; " href="certificados/diploma-react-native.pdf" target="_blank"><bold>Curso React Native</bold></a></li>
+										<li class="star"><a style="color: #1b1e21; " href="certificados/diploma-react-navigation.pdf" target="_blank"><bold>Curso React Navigation</bold></a></li>
 										<li class="star"><a style="color: #1b1e21;" href="certificados/git.pdf" target="_blank"><bold>Curso Profesional de Git y GitHub</bold></a></li>
+										<li class="star"><a style="color: #1b1e21;" href="certificados/diploma-ibm-cloud.pdf" target="_blank"><bold>Curso Fundamentos IBM Cloud</bold></a></li>
 										<li class="star"><a style="color: #1b1e21;" href="certificados/fundamentos-javascript.pdf" target="_blank"><bold>Curso Fundamentos de JavaScript</bold></a></li>
 										<li class="star"><a style="color: #1b1e21;" href="certificados/marca-personal.pdf" target="_blank"><bold>Curso de Marca Personal</bold></a></li>
 									</ul>
@@ -163,7 +182,7 @@
                                     <h3>Contactame: </h3>
                                     <div class="copyright">
                                         <ul class="icons">
-                                            <li class="normal"><a href="mailto:ca.alberto.p@gmail.com" target="_blank" style="color:white" class="icon fa-envelope"><span class="label">Escribeme</span></a></li>
+                                            <li class="normal"><a href="mailto:offcarlospetit@gmail.com" target="_blank" style="color:white" class="icon fa-envelope"><span class="label">Escribeme</span></a></li>
                                             <li class="normal"><a href="https://twitter.com/offcarlospetit" target="_blank" style="color:white" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
                                             <li class="normal"><a href="https://www.facebook.com/devoffcarlospetit/" style="color:white" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
                                             <li class="normal"><a href="https://www.instagram.com/offcarlospetit/" style="color:white" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
@@ -235,7 +254,7 @@
 			<footer id="footer">
 				<div class="copyright">
 					<ul class="icons">
-						<li><a href="mailto:ca.alberto.p@gmail.com" target="_blank" class="icon fa-envelope"><span class="label">Escribeme</span></a></li>
+						<li><a href="mailto:offcarlospetit@gmail.com" target="_blank" class="icon fa-envelope"><span class="label">Escribeme</span></a></li>
 						<li><a href="https://twitter.com/offcarlospetit" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="https://www.facebook.com/devoffcarlospetit/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<!-- <li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li> -->
