@@ -246,7 +246,7 @@ figure {
       overflow: visible; }
       #colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
-        background-size: cover;
+        /* background-size: cover; */
         background-position: bottom center;
         min-height: 400px;
         position: relative; }
@@ -436,6 +436,7 @@ body.offcanvas {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500; }
+  
 
 .hire {
   padding: 2em;
