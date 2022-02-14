@@ -1,7 +1,7 @@
 {
-    "name": "portfolio-app",
+    "name": "webpage",
     "version": "0.1.0",
-    "homepage": "https://offcarlospetit.github.io/webPage",
+    "homepage": "http://offcarlospetit.github.io/webPage",
     "private": true,
     "dependencies": {
         "react": "^16.8.3",
